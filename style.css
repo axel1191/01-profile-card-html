@@ -1,0 +1,74 @@
+body {
+    background-color: #add8e6;
+    font-family: 'Roboto', Arial, sans-serif;
+    /* Center the card vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Card styles */
+.profile-card {
+    background: #fff;
+    border: 1.5px solid #003366;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    padding: 32px 28px;
+    max-width: 420px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #003366;
+}
+
+h2 {
+    font-size: 24px;
+    color: slategrey;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.profile-card img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.profile-card ul li {
+    margin: 10px 0;
+}
+
+.profile-card ul li a {
+    text-decoration: underline;
+    color: #003366;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.profile-card ul li a:hover {
+    color: #005fa3;
+}
